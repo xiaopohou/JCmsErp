@@ -1,12 +1,12 @@
-# JCmsErp是一个好东西
+# JCmsErp是abp框架一个ERP项目
 副标题
 
 ***
 **step1.**
 
-- 12323
-- 撒大声地
-- 说到底
+- abp
+- AdminLTE
+- bootstrap
 
 **step2.**
 1. 学习
