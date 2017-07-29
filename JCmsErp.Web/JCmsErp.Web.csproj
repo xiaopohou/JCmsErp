@@ -281,6 +281,7 @@
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="Content\ui-bootstrap-csp.css" />
+    <Content Include="Data\Users.sql" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -340,6 +341,20 @@
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\bootstrap-3.2.0\css\bootstrap-blue-light.css" />
+    <Content Include="Scripts\bootstrap-3.2.0\css\bootstrap-theme.css" />
+    <Content Include="Scripts\bootstrap-3.2.0\css\bootstrap-theme.min.css" />
+    <Content Include="Scripts\bootstrap-3.2.0\css\bootstrap.css" />
+    <Content Include="Scripts\bootstrap-3.2.0\css\bootstrap.min.css" />
+    <Content Include="Scripts\bootstrap-3.2.0\css\install.css" />
+    <Content Include="Scripts\bootstrap-3.2.0\css\stickup.css" />
+    <Content Include="Scripts\bootstrap-3.2.0\extend\bootstrap-ext.css" />
+    <Content Include="Scripts\bootstrap-3.2.0\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\bootstrap-3.2.0\js\bootstrap.js" />
+    <Content Include="Scripts\bootstrap-3.2.0\js\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap-3.2.0\js\jquery.js" />
+    <Content Include="Scripts\bootstrap-3.2.0\js\stickUp.js" />
+    <Content Include="Scripts\bootstrap-3.2.0\js\stickUp.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -367,6 +382,11 @@
     <Content Include="Abp\Framework\styles\abp.mixings.css.map" />
     <Content Include="Abp\Framework\styles\abp.less" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
+    <Content Include="Scripts\bootstrap-3.2.0\css\bootstrap-theme.css.map" />
+    <Content Include="Scripts\bootstrap-3.2.0\css\bootstrap.css.map" />
+    <Content Include="Scripts\bootstrap-3.2.0\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\bootstrap-3.2.0\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Scripts\bootstrap-3.2.0\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_af-na.js" />
     <Content Include="Scripts\i18n\angular-locale_af-za.js" />
@@ -1152,6 +1172,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\sweetalert\sweet-alert.scss" />
     <Content Include="Scripts\version.json" />
+    <Content Include="Views\Home\InitDataBase.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
