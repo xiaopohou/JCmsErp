@@ -111,6 +111,7 @@
     <Compile Include="JCmsErpApplicationModule.cs" />
     <Compile Include="JCmsErpAppServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Users\UserInfoDto.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
