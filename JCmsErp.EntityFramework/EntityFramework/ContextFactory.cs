@@ -23,12 +23,6 @@ namespace JCmsErp.EntityFramework
             }
             return db;
         }
-        public void SetDatabaseExecuteSqlCommand(string FullName)
-        {
-            JCmsErpDbContext db = CallContext.GetData("Default") as JCmsErpDbContext;
-            db.Database.ExecuteSqlCommand(System.IO.File.ReadAllText(FullName, Encoding.Default));
-
-        }
 
         public static void GetCurrentContextSetDatabaseExecuteSqlCommand(string FullName)
         {
