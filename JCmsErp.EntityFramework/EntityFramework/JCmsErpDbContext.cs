@@ -1,5 +1,10 @@
 ﻿using System.Data.Common;
 using Abp.EntityFramework;
+using System.Data.Entity;
+using System;
+using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Data.Entity.ModelConfiguration.Configuration;
+using JCmsErp.User;
 
 namespace JCmsErp.EntityFramework
 {
@@ -43,5 +48,48 @@ namespace JCmsErp.EntityFramework
         {
 
         }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Conventions.Add(new DecimalPrecisionAttributeConvention());
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>(); //移除复数表名
+
+            modelBuilder.Entity<Users>().ToTable("[dbo].[Users]");
+
+        }
+        public virtual IDbSet<Users> User { get; set; }
+
+
+
+        public class DecimalPrecisionAttributeConvention : PrimitivePropertyAttributeConfigurationConvention<DecimalPrecisionAttribute>
+        {
+            public override void Apply(ConventionPrimitivePropertyConfiguration configuration, DecimalPrecisionAttribute attribute)
+            {
+                if (attribute.Precision < 1 || attribute.Precision > 38)
+                {
+                    throw new InvalidOperationException("Precision must be between 1 and 38.");
+                }
+
+                if (attribute.Scale > attribute.Precision)
+                {
+                    throw new InvalidOperationException("Scale must be between 0 and the Precision value.");
+                }
+
+                configuration.HasPrecision(attribute.Precision, attribute.Scale);
+            }
+        }
+        [AttributeUsage(AttributeTargets.Property, Inherited = false, AllowMultiple = false)]
+        public sealed class DecimalPrecisionAttribute : System.Attribute
+        {
+            public DecimalPrecisionAttribute(byte precision, byte scale)
+            {
+                Precision = precision;
+                Scale = scale;
+            }
+            public byte Precision { get; set; }
+            public byte Scale { get; set; }
+        }
+
     }
 }

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JCmsErp.Users
+namespace JCmsErp.User
 {
     [Serializable]
     [AutoMapFrom(typeof(Users))]

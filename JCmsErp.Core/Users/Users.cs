@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JCmsErp.Users
+namespace JCmsErp.User
 {
     [Table("Users")]
     public class Users : Entity<int>, IHasCreationTime
