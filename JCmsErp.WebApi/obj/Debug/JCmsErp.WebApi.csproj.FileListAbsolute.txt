@@ -52,3 +52,6 @@ G:\JCmsErp\JCmsErp.WebApi\bin\Debug\System.Web.Http.WebHost.xml
 G:\JCmsErp\JCmsErp.WebApi\obj\Debug\JCmsErp.WebApi.csprojResolveAssemblyReference.cache
 G:\JCmsErp\JCmsErp.WebApi\obj\Debug\JCmsErp.WebApi.dll
 G:\JCmsErp\JCmsErp.WebApi\obj\Debug\JCmsErp.WebApi.pdb
+G:\JCmsErp\JCmsErp.WebApi\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\JCmsErp\JCmsErp.WebApi\bin\Debug\Swashbuckle.Core.dll
+G:\JCmsErp\JCmsErp.WebApi\bin\Debug\WebActivatorEx.dll

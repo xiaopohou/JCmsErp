@@ -180,3 +180,26 @@ DEBUG 2017-07-30 02:08:45,722 [1    ] Abp.Localization.LocalizationManager     -
 DEBUG 2017-07-30 02:08:45,847 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
 WARN  2017-07-30 02:08:48,230 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
 WARN  2017-07-30 02:08:48,252 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-07-31 23:10:36,627 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-31 23:10:36,638 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-07-31 23:10:36,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.Web.JCmsErpWebModule, JCmsErp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:36,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:36,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:36,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:36,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:36,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpDataModule, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:36,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:36,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpCoreModule, JCmsErp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:36,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpApplicationModule, JCmsErp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:36,646 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpWebApiModule, JCmsErp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:36,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:36,650 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-07-31 23:10:36,864 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: JCmsErp.EntityFramework.JCmsErpDbContext, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 23:10:37,483 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-07-31 23:10:37,491 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-31 23:10:37,492 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-31 23:10:37,505 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JCmsErp
+DEBUG 2017-07-31 23:10:37,625 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-31 23:10:37,651 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.User.IUserService' with service name 'app/userService'.
+WARN  2017-07-31 23:10:40,499 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-07-31 23:10:40,522 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.

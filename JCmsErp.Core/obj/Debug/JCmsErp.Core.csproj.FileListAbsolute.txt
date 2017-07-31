@@ -31,4 +31,3 @@ G:\JCmsErp\JCmsErp.Core\bin\Debug\System.Collections.Immutable.xml
 G:\JCmsErp\JCmsErp.Core\bin\Debug\System.Linq.Dynamic.Core.xml
 G:\JCmsErp\JCmsErp.Core\obj\Debug\JCmsErp.Core.dll
 G:\JCmsErp\JCmsErp.Core\obj\Debug\JCmsErp.Core.pdb
-G:\JCmsErp\JCmsErp.Core\obj\Debug\JCmsErp.Core.csprojResolveAssemblyReference.cache

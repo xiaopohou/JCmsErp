@@ -89,3 +89,4 @@ G:\JCmsErp\JCmsErp.Web\bin\Abp.EntityFramework.Common.xml
 G:\JCmsErp\JCmsErp.Web\obj\Debug\JCmsErp.Web.csprojResolveAssemblyReference.cache
 G:\JCmsErp\JCmsErp.Web\obj\Debug\JCmsErp.Web.dll
 G:\JCmsErp\JCmsErp.Web\obj\Debug\JCmsErp.Web.pdb
+G:\JCmsErp\JCmsErp.Web\bin\Swashbuckle.Core.dll
