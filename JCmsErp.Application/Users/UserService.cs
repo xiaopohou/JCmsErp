@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Abp.Application.Services.Dto;
 using Abp.Domain.Repositories;
 using Abp.AutoMapper;
+using Castle.Core.Logging;
 
 namespace JCmsErp.User
 {
