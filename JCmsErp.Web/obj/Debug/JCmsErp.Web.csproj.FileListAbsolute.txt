@@ -90,3 +90,4 @@ G:\JCmsErp\JCmsErp.Web\obj\Debug\JCmsErp.Web.csprojResolveAssemblyReference.cach
 G:\JCmsErp\JCmsErp.Web\obj\Debug\JCmsErp.Web.dll
 G:\JCmsErp\JCmsErp.Web\obj\Debug\JCmsErp.Web.pdb
 G:\JCmsErp\JCmsErp.Web\bin\Swashbuckle.Core.dll
+G:\JCmsErp\JCmsErp.Web\bin\JCmsErp.Application.xml

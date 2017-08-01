@@ -38,3 +38,4 @@ G:\JCmsErp\JCmsErp.Application\bin\Debug\System.Linq.Dynamic.Core.xml
 G:\JCmsErp\JCmsErp.Application\obj\Debug\JCmsErp.Application.csprojResolveAssemblyReference.cache
 G:\JCmsErp\JCmsErp.Application\obj\Debug\JCmsErp.Application.dll
 G:\JCmsErp\JCmsErp.Application\obj\Debug\JCmsErp.Application.pdb
+G:\JCmsErp\JCmsErp.Application\bin\Debug\JCmsErp.Application.XML

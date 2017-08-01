@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JCmsErp.Application</name>
+    </assembly>
+    <members>
+        <member name="T:JCmsErp.JCmsErpAppServiceBase">
+            <summary>
+            Derive your application services from this class.
+            </summary>
+        </member>
+        <member name="T:JCmsErp.User.IUserService">
+            <summary>
+            用户接口
+            </summary>
+        </member>
+        <member name="M:JCmsErp.User.IUserService.GetUsers">
+            <summary>
+            获取用户列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:JCmsErp.User.IUserService.AddUserList(JCmsErp.User.UserInfoDto)">
+            <summary>
+            新增用户
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JCmsErp.User.IUserService.DelUsers(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="id">用户id</param>
+            <returns></returns>
+        </member>
+        <member name="P:JCmsErp.User.UserInfoDto.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:JCmsErp.User.UserInfoDto.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:JCmsErp.User.UserInfoDto.TrueName">
+            <summary>
+            真是姓名
+            </summary>
+        </member>
+        <member name="P:JCmsErp.User.UserInfoDto.Email">
+            <summary>
+            邮件
+            </summary>
+        </member>
+        <member name="P:JCmsErp.User.UserInfoDto.Phone">
+            <summary>
+            手机号码
+            </summary>
+        </member>
+        <member name="P:JCmsErp.User.UserInfoDto.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:JCmsErp.User.UserInfoDto.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:JCmsErp.User.UserInfoDto.CreationTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+    </members>
+</doc>

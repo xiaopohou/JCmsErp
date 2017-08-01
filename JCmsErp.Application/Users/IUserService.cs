@@ -8,10 +8,27 @@ using System.Threading.Tasks;
 
 namespace JCmsErp.User
 {
+    /// <summary>
+    /// 用户接口
+    /// </summary>
      public  interface IUserService: IApplicationService
     {
+        /// <summary>
+        /// 获取用户列表
+        /// </summary>
+        /// <returns></returns>
         Task <ListResultDto<UserInfoDto>> GetUsers();
+        /// <summary>
+        /// 新增用户
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         Task  AddUserList(UserInfoDto model);
+        /// <summary>
+        /// 删除用户
+        /// </summary>
+        /// <param name="id">用户id</param>
+        /// <returns></returns>
         Task  DelUsers(string id);
     }
 
