@@ -30,6 +30,7 @@ namespace JCmsErp.User
         /// <param name="id">用户id</param>
         /// <returns></returns>
         Task  DelUsers(string id);
+        bool Login(string UserName, string password);
     }
 
 

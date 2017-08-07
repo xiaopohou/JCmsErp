@@ -281,6 +281,7 @@
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="Content\ui-bootstrap-csp.css" />
+    <Content Include="Data\Meun.sql" />
     <Content Include="Data\Users.sql" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -387,6 +388,13 @@
     <Content Include="Scripts\bootstrap-3.2.0\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\bootstrap-3.2.0\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Scripts\bootstrap-3.2.0\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Areas\Admin\Views\UserInfo\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Common\Views\Layout\_Layout.cshtml" />
+    <Content Include="Areas\Common\Views\Layout\_LeftSideMenus.cshtml" />
+    <Content Include="Areas\Common\Views\Layout\_MainFooter.cshtml" />
+    <Content Include="Areas\Common\Views\Layout\_MainHeader.cshtml" />
+    <Content Include="Areas\Common\Views\web.config" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_af-na.js" />
     <Content Include="Scripts\i18n\angular-locale_af-za.js" />
@@ -1145,6 +1153,15 @@
     <Content Include="Scripts\sweetalert\sweet-alert.min.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
+    <Content Include="Views\Account\Login\css\style.css" />
+    <Content Include="Views\Account\Login\images\adm.png" />
+    <Content Include="Views\Account\Login\images\avtar.png" />
+    <Content Include="Views\Account\Login\images\bg1.jpg" />
+    <Content Include="Views\Account\Login\images\close.png" />
+    <Content Include="Views\Account\Login\images\key.png" />
+    <Content Include="Views\Account\Login\images\pass.png" />
+    <Content Include="Views\Account\Login\index.html" />
+    <Content Include="Views\Account\Login\说明.txt" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -1155,6 +1172,12 @@
     <Compile Include="App_Start\JCmsErpNavigationProvider.cs" />
     <Compile Include="App_Start\JCmsErpWebModule.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserInfoController.cs" />
+    <Compile Include="Areas\Common\CommonAreaRegistration.cs" />
+    <Compile Include="Areas\Common\Controllers\LayoutController.cs" />
+    <Compile Include="Areas\Common\Models\MeunViewModel.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JCmsErpControllerBase.cs" />
     <Compile Include="Global.asax.cs">
@@ -1173,6 +1196,7 @@
     <Content Include="Scripts\sweetalert\sweet-alert.scss" />
     <Content Include="Scripts\version.json" />
     <Content Include="Views\Home\InitDataBase.cshtml" />
+    <Content Include="Views\Account\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1182,6 +1206,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Areas\Common\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

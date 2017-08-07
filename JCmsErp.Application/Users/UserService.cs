@@ -48,5 +48,16 @@ namespace JCmsErp.User
                 users.MapTo<List<UserInfoDto>>()
                 );
         }
+        /// <summary>
+        /// 登录
+        /// </summary>
+        /// <param name="UserName"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        public bool Login(string UserName, string password)
+        {
+            var users = _userRepository.GetAllList().Where(o => o.UserName == UserName && o.Password == password);
+            return users.Count() > 0;
+        }
     }
 }

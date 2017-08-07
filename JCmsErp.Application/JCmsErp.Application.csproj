@@ -111,6 +111,9 @@
   <ItemGroup>
     <Compile Include="JCmsErpApplicationModule.cs" />
     <Compile Include="JCmsErpAppServiceBase.cs" />
+    <Compile Include="Meuns\IMeunService.cs" />
+    <Compile Include="Meuns\MeunDto.cs" />
+    <Compile Include="Meuns\MeunService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Users\IUserService.cs" />
     <Compile Include="Users\UserInfoDto.cs" />

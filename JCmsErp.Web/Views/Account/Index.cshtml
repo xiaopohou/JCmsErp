@@ -1,0 +1,98 @@
+﻿
+@using Abp.Web.Mvc.Extensions
+@{
+    ViewBag.Title = "Index";
+}
+<title>登录</title>
+<link rel="shortcut icon" href="~/Content/cpts_174_ddb/images/avtar.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<meta name="keywords" content="abp AdminLT" />
+<link href="~/Content/cpts_174_ddb/css/style.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-2.1.4.js"></script>
+<script src="~/Scripts/jquery-2.1.4.min.js"></script>
+<link href="~/Scripts/sweetalert/sweet-alert.css" rel="stylesheet" />
+<script src="~/Scripts/sweetalert/sweet-alert.js"></script>
+<script src="~/Scripts/sweetalert/sweet-alert.min.js"></script>
+<script src="~/Abp/Framework/scripts/libs/abp.sweet-alert.js"></script>
+
+<body>
+    <script>
+        $(document).ready(function (c) {
+            $('.close').on('click', function (c) {
+                $('.login-form').fadeOut('slow', function (c) {
+                    $('.login-form').remove();
+                });
+            });
+        });
+    </script>
+    <script>
+
+        debugger;
+        function login() {
+            if ($("#userName").val() == "" || $("#userName").val() == "请输入登录名") {
+                abp.message.error('请输入用户名!', '登录失败');
+                return;
+            }
+            if ($("#password").val() == "" || $("#password").val() == "请输入密码") {
+                abp.message.confirm(
+                     '请输入密码.', //确认提示
+                     '确定?',//确认提示（可选参数）
+                     function (isConfirmed) {
+                         if (isConfirmed) {
+                             //...delete user 点击确认后执行
+                         }
+                     }
+                 );
+                return;
+            }
+
+            var url = "/Account/Login";
+            $.ajax({
+                type: "post",
+                url: url,
+                data: { "userName": $("#userName").val(), password: $("#password").val() },
+                success: function (data) {
+                    if (data.result.success) {
+                        debugger;
+                        window.location.href = "/Admin/UserInfo/Index";
+                    } else {
+                        abp.message.warn('用户名或密码错误!', '登录失败');
+                    }
+
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    abp.notify.error('请稍后再试', '请求失败');
+                }
+            });
+        }
+    </script>
+
+    <div class="login-form" style="margin-top:150px;">
+        <div class="head-info">
+            <label style="margin-left:70px;"> 登录</label>
+            <label class="lbl-1"> </label>
+            <label class="lbl-2"> </label>
+            <label class="lbl-3"> </label>
+        </div>
+        <div class="clear"> </div>
+        <div class="avtar">
+            <img src="~/Content/cpts_174_ddb/images/avtar.png" />
+        </div>
+        <form id="fm" method="post">
+            <input type="text" id="userName" value="请输入登录名" class="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请输入登录名';}">
+            <div class="key">
+                <input type="password" id="password" value="请输入密码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请输入密码';}">
+            </div>
+        </form>
+        <div class="signin">
+            <input type="submit" value="登录" onclick="login()">
+        </div>
+    </div>
+    <div class="copy-rights">
+
+    </div>
+
+</body>
+
+

@@ -9,6 +9,51 @@
             Derive your application services from this class.
             </summary>
         </member>
+        <member name="T:JCmsErp.Meuns.MeunDto">
+            <summary>
+            菜单
+            </summary>
+        </member>
+        <member name="P:JCmsErp.Meuns.MeunDto.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:JCmsErp.Meuns.MeunDto.ParentId">
+            <summary>
+            父模块Id
+            </summary>
+        </member>
+        <member name="P:JCmsErp.Meuns.MeunDto.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:JCmsErp.Meuns.MeunDto.LinkUrl">
+            <summary>
+            链接地址
+            </summary>
+        </member>
+        <member name="P:JCmsErp.Meuns.MeunDto.IsMenu">
+            <summary>
+            是否是菜单
+            </summary>
+        </member>
+        <member name="P:JCmsErp.Meuns.MeunDto.Code">
+            <summary>
+            模块编号
+            </summary>
+        </member>
+        <member name="P:JCmsErp.Meuns.MeunDto.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:JCmsErp.Meuns.MeunDto.Enabled">
+            <summary>
+            是否激活
+            </summary>
+        </member>
         <member name="T:JCmsErp.User.IUserService">
             <summary>
             用户接口
@@ -73,6 +118,14 @@
             <summary>
             创建时间
             </summary>
+        </member>
+        <member name="M:JCmsErp.User.UserService.Login(System.String,System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="UserName"></param>
+            <param name="password"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>

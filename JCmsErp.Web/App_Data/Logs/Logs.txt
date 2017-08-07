@@ -387,3 +387,123 @@ DEBUG 2017-08-01 21:32:55,865 [1    ] Abp.BackgroundJobs.BackgroundJobManager  -
 DEBUG 2017-08-01 21:32:55,886 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.User.IUserService' with service name 'app/userService'.
 WARN  2017-08-01 21:32:58,236 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
 WARN  2017-08-01 21:32:58,256 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-07 10:50:55,516 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-07 10:50:55,534 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-08-07 10:50:55,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.Web.JCmsErpWebModule, JCmsErp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpDataModule, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:55,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:55,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpCoreModule, JCmsErp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:55,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpApplicationModule, JCmsErp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:55,545 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpWebApiModule, JCmsErp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:55,545 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:55,548 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-08-07 10:50:55,825 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: JCmsErp.EntityFramework.JCmsErpDbContext, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:50:56,528 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-07 10:50:56,538 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-07 10:50:56,539 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-07 10:50:56,541 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JCmsErp
+DEBUG 2017-08-07 10:50:56,699 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-07 10:50:56,731 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.User.IUserService' with service name 'app/userService'.
+DEBUG 2017-08-07 10:50:56,732 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.Meuns.IMeunService' with service name 'app/meunService'.
+WARN  2017-08-07 10:50:59,275 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-07 10:50:59,303 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-07 10:56:16,454 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-07 10:56:16,466 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-08-07 10:56:16,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.Web.JCmsErpWebModule, JCmsErp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,473 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,473 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,473 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,473 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpDataModule, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,473 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,474 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpCoreModule, JCmsErp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,474 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpApplicationModule, JCmsErp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,474 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpWebApiModule, JCmsErp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,474 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,477 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-08-07 10:56:16,724 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: JCmsErp.EntityFramework.JCmsErpDbContext, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 10:56:16,846 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-07 10:56:16,856 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-07 10:56:16,857 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-07 10:56:16,859 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JCmsErp
+DEBUG 2017-08-07 10:56:17,014 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-07 10:56:17,052 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.User.IUserService' with service name 'app/userService'.
+DEBUG 2017-08-07 10:56:17,052 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.Meuns.IMeunService' with service name 'app/meunService'.
+WARN  2017-08-07 10:56:19,081 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-07 10:56:19,109 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-07 11:25:29,738 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-07 11:25:29,750 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-08-07 11:25:29,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.Web.JCmsErpWebModule, JCmsErp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:29,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:29,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:29,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:29,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:29,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpDataModule, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:29,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:29,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpCoreModule, JCmsErp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:29,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpApplicationModule, JCmsErp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:29,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpWebApiModule, JCmsErp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:29,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:29,761 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-08-07 11:25:30,015 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: JCmsErp.EntityFramework.JCmsErpDbContext, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:25:30,121 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-07 11:25:30,132 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-07 11:25:30,133 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-07 11:25:30,134 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JCmsErp
+DEBUG 2017-08-07 11:25:30,275 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-07 11:25:30,311 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.User.IUserService' with service name 'app/userService'.
+DEBUG 2017-08-07 11:25:30,312 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.Meuns.IMeunService' with service name 'app/meunService'.
+WARN  2017-08-07 11:25:32,273 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-07 11:25:32,299 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-07 11:28:57,266 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-07 11:28:57,279 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-08-07 11:28:57,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.Web.JCmsErpWebModule, JCmsErp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:57,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:57,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:57,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:57,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:57,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpDataModule, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:57,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:57,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpCoreModule, JCmsErp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:57,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpApplicationModule, JCmsErp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:57,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpWebApiModule, JCmsErp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:57,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:57,292 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-08-07 11:28:57,536 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: JCmsErp.EntityFramework.JCmsErpDbContext, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:28:58,385 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-07 11:28:58,394 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-07 11:28:58,395 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-07 11:28:58,397 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JCmsErp
+DEBUG 2017-08-07 11:28:58,530 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-07 11:28:58,558 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.User.IUserService' with service name 'app/userService'.
+DEBUG 2017-08-07 11:28:58,559 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.Meuns.IMeunService' with service name 'app/meunService'.
+WARN  2017-08-07 11:29:09,787 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-07 11:29:09,811 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-07 11:30:25,166 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-07 11:30:25,178 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-08-07 11:30:25,182 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.Web.JCmsErpWebModule, JCmsErp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:25,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:25,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:25,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:25,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:25,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpDataModule, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:25,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:25,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpCoreModule, JCmsErp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:25,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpApplicationModule, JCmsErp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:25,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: JCmsErp.JCmsErpWebApiModule, JCmsErp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:25,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:25,187 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-08-07 11:30:25,437 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: JCmsErp.EntityFramework.JCmsErpDbContext, JCmsErp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-07 11:30:26,076 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-07 11:30:26,084 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-07 11:30:26,085 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-07 11:30:26,086 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: JCmsErp
+DEBUG 2017-08-07 11:30:26,217 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-07 11:30:26,236 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.User.IUserService' with service name 'app/userService'.
+DEBUG 2017-08-07 11:30:26,237 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'JCmsErp.Meuns.IMeunService' with service name 'app/meunService'.
+WARN  2017-08-07 11:30:28,492 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-07 11:30:28,513 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
