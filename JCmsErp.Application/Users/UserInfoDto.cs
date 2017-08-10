@@ -13,6 +13,7 @@ namespace JCmsErp.User
     
     public class UserInfoDto
     {
+        public int? id { get; set; }
         /// <summary>
         /// 用户名
         /// </summary>

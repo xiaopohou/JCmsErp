@@ -31,6 +31,8 @@ namespace JCmsErp.User
         /// <returns></returns>
         Task  DelUsers(string id);
         bool Login(string UserName, string password);
+
+        List<UserInfoDto> GetAllList();
     }
 
 

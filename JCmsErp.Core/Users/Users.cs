@@ -8,9 +8,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace JCmsErp.User
 {
     [Table("Users")]
+
+    [Serializable]
     public class Users : Entity<int>, IHasCreationTime
     {
 

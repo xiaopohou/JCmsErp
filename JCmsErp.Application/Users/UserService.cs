@@ -48,6 +48,27 @@ namespace JCmsErp.User
                 users.MapTo<List<UserInfoDto>>()
                 );
         }
+        public List<UserInfoDto> GetAllList()
+        {
+            List<UserInfoDto> newlist = new List<UserInfoDto>();
+
+            var data = from s in _userRepository.GetAll()
+                       select new UserInfoDto()
+                       {
+                           id = s.Id,
+                           UserName = s.UserName,
+                           TrueName = s.TrueName,
+                           Password = s.Password,
+                           CreationTime = s.CreationTime,
+                           Email = s.Email,
+                           Phone = s.Phone,
+                           Address = s.Address,
+                       };
+
+            newlist = data.ToList();
+
+            return newlist;
+        }
         /// <summary>
         /// 登录
         /// </summary>

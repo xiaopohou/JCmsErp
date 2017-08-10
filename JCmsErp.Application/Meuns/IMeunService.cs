@@ -9,6 +9,6 @@ namespace JCmsErp.Meuns
 {
    public  interface IMeunService : IApplicationService
     {
-        List<MeunDto> GetAllList();
+        List<MeunDto> GetMeunList();
     }
 }

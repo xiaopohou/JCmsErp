@@ -5,6 +5,7 @@ using System;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Data.Entity.ModelConfiguration.Configuration;
 using JCmsErp.User;
+using JCmsErp.Meuns;
 
 namespace JCmsErp.EntityFramework
 {
@@ -56,10 +57,11 @@ namespace JCmsErp.EntityFramework
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>(); //移除复数表名
 
             modelBuilder.Entity<Users>().ToTable("[dbo].[Users]");
+            modelBuilder.Entity<Meun>().ToTable("[dbo].[Modules]");
 
         }
         public virtual IDbSet<Users> User { get; set; }
-
+        public virtual IDbSet<Meun> Modules { get; set; }
 
 
         public class DecimalPrecisionAttributeConvention : PrimitivePropertyAttributeConfigurationConvention<DecimalPrecisionAttribute>

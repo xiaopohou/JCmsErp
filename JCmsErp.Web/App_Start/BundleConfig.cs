@@ -74,6 +74,15 @@ namespace JCmsErp.Web
                 new ScriptBundle("~/Bundles/App/Main/js")
                     .IncludeDirectory("~/App/Main", "*.js", true)
                 );
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+                    "~/Scripts/AdminLTE-2.1.1/AdminLTE-2.1.1/bootstrap/js/bootstrap.js",
+                    "~/Scripts/AdminLTE-2.1.1/AdminLTE-2.1.1/dist/js/app.js",
+                    "~/Scripts/AdminLTE-2.1.1/AdminLTE-2.1.1/plugins/slimScroll/jquery.slimscroll.js",
+                    "~/Scripts/AdminLTE-2.1.1/AdminLTE-2.1.1/plugins/fastclick/fastclick.js",
+                    "~/Scripts/AdminLTE-2.1.1/AdminLTE-2.1.1/plugins/iCheck/icheck.js",
+                   "~/Scripts/bootstraptable/dist/bootstrap-table.js",
+                   "~/Scripts/bootstraptable/dist/locale/bootstrap-table-zh-CN.js",
+                    "~/Scripts/Custom/WinMsg.js"));
         }
     }
 }

@@ -59,5 +59,6 @@ namespace JCmsErp.Meuns
 
         //public virtual MeunDto ParentModule { get; set; }
         //public List<MeunDto> ChildModules { get; private set; }
+        public List<MeunDto> children { get; set; }
     }
 }
