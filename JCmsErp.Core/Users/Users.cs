@@ -56,40 +56,42 @@ namespace JCmsErp.User
         /// 是否激活
         /// </summary>
         public bool Enabled { get; set; }
-        public string StrEnabled
-        {
-            get
-            {
-                return Enabled == true ? "是" : "否";
-            }
-        }
-        public interface ICreationAudited : IHasCreationTime
-        {
-            /// <summary>
-            /// 创建人id
-            /// </summary>
-            long? CreatorUserId { get; set; }
-            /// <summary>
-            /// 最后更新时间
-            /// </summary>
-            DateTime? LastModificationTime { get; set; }
-        }
+        //public string StrEnabled
+        //{
+        //    get
+        //    {
+        //        return Enabled == true ? "是" : "否";
+        //    }
+        //}
+        //public interface ICreationAudited : IHasCreationTime
+        //{
+        /// <summary>
+        /// 创建人id
+        /// </summary>
+        public int  CreatorUserId { get; set; }
+        /// <summary>
+        /// 最后更新时间
+        /// </summary>
+        public DateTime LastModificationTime { get; set; }
+        //}
         /// <summary>
         /// 创建时间
         /// </summary>
         public DateTime CreationTime { get; set; }
 
+
+        public DateTime UpdateDate { get; set; }
         public Users()
         {
             CreationTime = DateTime.Now;
         }
         //软删除
-        public interface ISoftDelete
-        {
+        //public interface ISoftDelete
+        //{
             /// <summary>
             /// 是否删除
             /// </summary>
-            bool IsDeleted { get; set; }
-        }
+            public bool IsDeleted { get; set; }
+        //}
     }
 }

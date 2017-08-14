@@ -51,7 +51,7 @@ namespace JCmsErp.Web.Areas.Admin.Controllers
         [HttpPost]
         public ActionResult Create(UserInfoDto roleVm)
         {
-            var result = _iUsersService.AddUserList(roleVm);
+            var result = _iUsersService.AddorUpdateUserList(roleVm);
             return Json(result);
         }
         [DisableAbpAntiForgeryTokenValidation]
@@ -59,7 +59,7 @@ namespace JCmsErp.Web.Areas.Admin.Controllers
         [DontWrapResult]
         public ActionResult DelUserById(string Id)
         {
-            var result = _iUsersService.DelUsers(Id);
+            var result = _iUsersService.DelUser(Id);
             return Json(result);
         }
 

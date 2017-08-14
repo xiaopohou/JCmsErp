@@ -33,6 +33,11 @@ namespace JCmsErp.User
         bool Login(string UserName, string password);
 
         List<UserInfoDto> GetAllList();
+
+
+        string AddorUpdateUserList(UserInfoDto model);
+
+        string DelUser(string id);
     }
 
 

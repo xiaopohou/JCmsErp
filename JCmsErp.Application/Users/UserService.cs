@@ -7,17 +7,20 @@ using Abp.Application.Services.Dto;
 using Abp.Domain.Repositories;
 using Abp.AutoMapper;
 using Castle.Core.Logging;
+using Abp.Domain.Uow;
 
 namespace JCmsErp.User
 {
     public class UserService : IUserService
     {
         private readonly IRepository<Users, int> _userRepository;
+        private readonly IUnitOfWorkManager _unitOfWorkManager;
         public ILogger Logger { get; set; }
-        public UserService(IRepository<Users, int> userRepository)
+        public UserService(IRepository<Users, int> userRepository, IUnitOfWorkManager unitOfWorkManager)
         {
             Logger = NullLogger.Instance;
             _userRepository = userRepository;
+            _unitOfWorkManager = unitOfWorkManager;
         }
         public async Task AddUserList(UserInfoDto model)
         {
@@ -26,6 +29,10 @@ namespace JCmsErp.User
             Logger.Debug("_userRepository通过构造函数注入注入的方式!");
             Logger.Debug("这是通过属性注入的方式!");
         }
+
+
+
+
 
         public async Task DelUsers(string id)
         {
@@ -80,5 +87,95 @@ namespace JCmsErp.User
             var users = _userRepository.GetAllList().Where(o => o.UserName == UserName && o.Password == password);
             return users.Count() > 0;
         }
+
+
+
+        public string AddorUpdateUserList(UserInfoDto model)
+        {
+            string Stars = "ok";
+            try
+            {
+                if (model.id==0)
+                {
+                    Users user = new Users();
+                   
+                    user.UserName = model.UserName;
+                    user.Email = model.Email;
+                    user.Password = string.IsNullOrWhiteSpace(model.Password) ? "123456" : model.Password;
+                    user.Address = string.IsNullOrWhiteSpace(model.Email) ? "深南大道" : model.Email;
+                    user.Phone = string.IsNullOrWhiteSpace(model.Phone) ? "123456789" : model.Phone;
+                    user.TrueName = string.IsNullOrWhiteSpace(model.TrueName) ? "user" : model.TrueName;
+                    user.Enabled = true;
+                    user.CreationTime = DateTime.Now;
+                    user.CreatorUserId = 11;
+                    user.LastModificationTime = DateTime.Now;
+                    user.IsDeleted = false;
+                    user.UpdateDate =DateTime.Now;
+                    _userRepository.Insert(user);
+                }
+                else
+                {
+                    Users user = _userRepository.Get(model.id);
+                    user.UserName = model.UserName;
+                    user.Email = model.Email;
+                    user.Password = string.IsNullOrWhiteSpace(model.Password) ? "123456" : model.Password;
+                    user.Address = string.IsNullOrWhiteSpace(model.Email) ? "深南大道" : model.Email;
+                    user.Phone = string.IsNullOrWhiteSpace(model.Phone) ? "123456789" : model.Phone;
+                    user.TrueName = string.IsNullOrWhiteSpace(model.TrueName) ? "user" : model.TrueName;
+                    user.Enabled = true;
+                    user.CreationTime = DateTime.Now;
+                    user.CreatorUserId = 11;
+                    user.LastModificationTime = DateTime.Now;
+                    user.IsDeleted = false;
+                    _userRepository.Update(user);
+
+                }
+               _unitOfWorkManager.Current.SaveChanges();
+
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+            return Stars;
+
+        }
+
+
+
+        public string DelUser(string id)
+        {
+
+            string Start = "ok";
+            try
+            {
+
+
+                var userEntity = _userRepository.Get(Int32.Parse(id));
+                if (userEntity == null)
+                {
+                    return Start = "你删除的对象不存在";
+                }
+                else
+                {
+                    Users user = _userRepository.Get(Int32.Parse(id));
+                    _userRepository.Delete(user);
+                    _unitOfWorkManager.Current.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            return Start;
+
+        }
+
+
     }
 }

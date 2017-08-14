@@ -3117,6 +3117,12 @@
     <Content Include="Scripts\Content\bootstrap\ui-bootstrap-csp.css" />
     <Content Include="Scripts\Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Scripts\Content\Site.css" />
+    <Content Include="Scripts\Custom\ModalForm.js" />
+    <Content Include="Scripts\Custom\MyCommon.js" />
+    <Content Include="Scripts\Custom\Role\AuthorizePermissionModal.js" />
+    <Content Include="Scripts\Custom\TableOperation.js" />
+    <Content Include="Scripts\Custom\User\User.js" />
+    <Content Include="Scripts\Custom\WinMsg.js" />
     <Content Include="Scripts\errors.json" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\angular-touch.min.js.map" />
@@ -4193,6 +4199,9 @@
     <Content Include="Scripts\sweetalert\sweet-alert.min.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
+    <Content Include="Scripts\Toastr\toastr.css" />
+    <Content Include="Scripts\Toastr\toastr.min.css" />
+    <Content Include="Scripts\Toastr\toastr.min.js" />
     <Content Include="Views\Account\Login\css\style.css" />
     <Content Include="Views\Account\Login\images\adm.png" />
     <Content Include="Views\Account\Login\images\avtar.png" />
@@ -4237,6 +4246,7 @@
     <Content Include="Scripts\version.json" />
     <Content Include="Views\Home\InitDataBase.cshtml" />
     <Content Include="Views\Account\Index.cshtml" />
+    <Content Include="Scripts\Toastr\toastr.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

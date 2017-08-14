@@ -8,6 +8,8 @@
 <link href="~/Scripts/Content/bootstrap-table/bootstrap-table.css" rel="stylesheet" />
 <script src="~/Scripts/Content/bootstrap-table/bootstrap-table.js"></script>
 <script src="~/Scripts/Content/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
+<link href="~/Scripts/Toastr/toastr.css" rel="stylesheet" />
+<script src="~/Scripts/Toastr/toastr.min.js"></script>
 <script type="text/javascript">
 
     $(function () {
@@ -182,7 +184,8 @@
                     type: 'post',
                     dataType: "Json",
                     url: actionUrl,
-                    data: { Id:Id},
+                    data: { Id: Id },
+                    async: false,
                     beforeSend: function (XMLHttpRequest) {
                     },
                     success: function (data, textStatus) { //请求成功后处理函数。
